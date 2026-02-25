@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>I'm Sorry</title>
+
+<style>
+body {
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    text-align:center;
+    color:white;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 22px;
+    width: 70%;
+    margin:auto;
+}
+
+button {
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    background:white;
+    color:#ee9ca7;
+    border-radius:25px;
+    cursor:pointer;
+    margin-top:20px;
+}
+
+.hidden {
+    display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>I'm Sorry 💔</h1>
+    <p>
+        I never meant to hurt you.  
+        You matter a lot to me... more than I show sometimes.
+    </p>
+
+    <button onclick="showMessage()">Click here</button>
+
+    <p id="message" class="hidden">
+        I miss how we used to talk.  
+        If possible... can we start again? 🌙
+    </p>
+</div>
+
+<script>
+function showMessage(){
+    document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
